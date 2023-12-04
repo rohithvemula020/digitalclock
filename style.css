@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: url("./backgroundd.avif");
+    /* background-size: cover; */
+    /* background-color: transparent; */
+    /* opacity: 0.8; */
+    /* mix-blend-mode: color-dodge; */
+}
+.clock-body{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 5rem;
+    /* background-color: red; */
+}
+.clock{
+    /* background-color: red; */
+    border-radius: 0.2em;
+    box-shadow: 2px 2px 5px #222222, 2px 2px 5px #222222;
+}
+.clock-body>span{
+    font-size: 2rem;
+    margin-left: 1vw;
+    margin-top: -8vh;
+}
+
+@media (max-width:389px){
+    .clock-body{
+        font-size: 3rem;
+    }
+}
+@media (max-width:500px){
+    .clock-body{
+        font-size: 4rem;
+    }
+}
